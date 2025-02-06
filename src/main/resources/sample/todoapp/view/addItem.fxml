@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootAnchorPane" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.todoapp.controllers.AddItemController">
+   <children>
+      <AnchorPane prefHeight="96.0" prefWidth="700.0" style="-fx-background-color: #ee553a;">
+         <children>
+            <Label alignment="CENTER" layoutX="259.0" layoutY="29.0" prefHeight="38.0" prefWidth="182.0" text="2DO" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="noTaskLabel" alignment="CENTER" layoutX="237.0" layoutY="161.0" prefHeight="49.0" prefWidth="226.0" text="No Tasks for Today, yet!" textFill="#4a4848">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="addButton" fitHeight="58.0" fitWidth="92.0" layoutX="321.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/add_circle.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

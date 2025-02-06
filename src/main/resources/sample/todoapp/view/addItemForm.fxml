@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.todoapp.controllers.AddItemFormController">
+   <children>
+      <TextField fx:id="textField" layoutX="198.0" layoutY="109.0" prefHeight="49.0" prefWidth="312.0" promptText="Task">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="descriptionField" layoutX="198.0" layoutY="194.0" prefHeight="65.0" prefWidth="312.0" promptText="Description">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="saveTaskButton" layoutX="313.0" layoutY="290.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="108.0" style="-fx-background-color: #ee553a;" text="Save Task" textFill="WHITE" />
+      <AnchorPane prefHeight="65.0" prefWidth="707.0" style="-fx-background-color: #424242;">
+         <children>
+            <Label alignment="CENTER" layoutX="278.0" layoutY="18.0" prefHeight="38.0" prefWidth="182.0" text="2DO" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
